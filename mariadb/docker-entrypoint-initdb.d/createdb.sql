@@ -19,7 +19,7 @@
 CREATE DATABASE IF NOT EXISTS `sighty_application` COLLATE 'utf8_general_ci' ;
 GRANT ALL ON `sighty_application`.* TO 'sail'@'%' ;
 
-CREATE DATABASE IF NOT EXISTS sighty_public`sighty_binary` COLLATE 'utf8_general_ci' ;
+CREATE DATABASE IF NOT EXISTS `sighty_binary` COLLATE 'utf8_general_ci' ;
 GRANT ALL ON `sighty_binary`.* TO 'sail'@'%' ;
 
 CREATE DATABASE IF NOT EXISTS `sighty_public` COLLATE 'utf8_general_ci' ;
